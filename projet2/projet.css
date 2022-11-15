@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+aside{
+  background-color: #F44336;
+  background-position: left;
+  color: white;
+  position: fixed;
+  height: 100%;
+  width: 27%;
+
+}
+aside ul li{
+    font-weight: 900;
+    padding: 10px 0px;
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 1cm;
+   
+}
+aside ul li:hover ,aside ul li:hover a {
+    background-color: rgb(255, 255, 255);
+   color: black!important;
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+   
+}
+aside h2{
+    padding: 80px;
+    padding-left: 40px;
+    padding-bottom: 60px;
+}
+main{
+    float: right;
+    height: 100%;
+    width: 895px;    
+}
+section{
+    padding-left: 30px;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.titre{
+    font-size: 50px;
+    color: #F44336;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.ligne{
+    width:60px;
+    height: 10px;
+    background-color: #F44336;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.photo{
+ height: 250px;
+ width: 42%;
+ margin-right: 20px;
+}
+.photo2{
+    height: 150px;
+    width: 42%;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+
+ p{
+    line-height: 23px;
+    margin-right: 20px
+}
+.designers-name div{
+    background-color: #f1f1f1;
+}
+.nom{
+    font-size: 20px;
+}
+.job{
+    color: #6F6E6E;
+}
+.designers-name div img{
+    width: 100%;
+    filter: grayscale(50%);
+}
+.designers-name {
+    display: flex ;
+    gap: 15px;
+}
+.designers-name h4 {
+    padding: 10px;
+}
+.designers-name p{
+    padding: 10px;
+}
+table{
+    width: 50%;
+    background-color: #f1f1f1;
+    text-align: center;
+
+}
+table th{
+    padding: 5%;
+}
+td{
+    padding: 15px;
+    border-bottom: 1px solid;
+    border-bottom-color: #6F6E6E;
+    
+}
+#basictable th{
+    color: white;
+    background-color: #6F6E6E;
+}
+
+#protable th{
+    color: white;
+    background-color: #F44336;
+}
+
+.boutton-white, .boutton-red{
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+}
+.boutton-white{
+    background-color: white;
+    color: black;
+}
+.boutton-red{
+    background-color: #F44336;
+    color: white;
+}
+.plans{
+    display: flex;
+    gap: 15px;
+}
+table p{
+    color: #6F6E6E;
+}
+.name, .email, .message{
+    width: 95%;
+    height: 1cm;
+    margin: 15px 0px;
+}
+h5{
+    font-size: 30px;
+}
+.boutton{
+ background-color: #F44336;
+ color: white;
+ width: 95%;
+ margin: 15px 0px;
+ height: 1cm;
+ border: none;
+ cursor: pointer;
+ 
+}
+
+footer {
+    background-color: #f1f1f1;
+    height: 100px;
+    width: 95%;
+    position: absolute;
+    top: 3250px;
+    left: 63px;
+    z-index: -1; 
+
+}
+footer p{
+    float: right;
+    margin: 40px 20px;
+}
+
+.social{
+    width: 200px;
+    margin-left: 320px;
+
+}
+.icons{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+i{
+    float: left;
+    padding: 16px 16px 16px 0px;
+}
